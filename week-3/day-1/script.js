@@ -31,7 +31,7 @@ console.log(exampleMenu.length);     // how many items
 // TODO: Make an array of 3 or more things YOUR truck sells.
 // TODO: Log the first item, the last item, and how many items there are.
 
-const reaLTruckMenu = ["Plain Taco", "Bean Burritos", "Dorritos Lochos Tacos" ];
+const menu = ["Plain Taco", "Bean Burritos", "Dorritos Lochos Tacos" ];
 console.log(realTruckMenu[0]);
 console.log(realTruckMenu[realTruckMenu.length - 1]);
 console.log(realTruckMenu.length)
@@ -45,7 +45,7 @@ console.log(exampleItem["price"]);   // bracket notation
 // TODO: Make an object for one of YOUR menu items (name, price, spicy).
 // TODO: Log one property with dot notation and one with bracket notation.
 
-const realTruckItem = { name: "Dorritos Lochos Taco", price: 5.5, spicy: true };
+const item = { name: "Dorritos Lochos Taco", price: 5.5, spicy: true };
 console.log(realTruckItem.name);
 console.log(realTruckItem["price"]);
 
@@ -59,6 +59,10 @@ console.log(addTip(10, 2));          // 12
 
 // TODO: Write a function orderTotal(price, quantity) that RETURNS price * quantity.
 // TODO: Before you run it, guess what orderTotal(4.5, 3) gives. Then log it.
+
+function orderTotal(price, quantity0=) {
+  return price * quantity;
+}
 
 
 // ---------- Extra practice (if you finish early) ----------
