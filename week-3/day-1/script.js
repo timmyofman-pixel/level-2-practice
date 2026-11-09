@@ -31,6 +31,10 @@ console.log(exampleMenu.length);     // how many items
 // TODO: Make an array of 3 or more things YOUR truck sells.
 // TODO: Log the first item, the last item, and how many items there are.
 
+const reaLTruckMenu = ["Plain Taco", "Bean Burritos", "Dorritos Lochos Tacos" ];
+console.log(realTruckMenu[0]);
+console.log(realTruckMenu[realTruckMenu.length - 1]);
+console.log(realTruckMenu.length)
 
 // ---------- Step 3: An object (one thing with details) ----------
 // Example:
