@@ -9,9 +9,14 @@ const exampleName = "Taco Rocket";   // string (text)
 const exampleYears = 3;              // number
 const exampleIsOpen = true;          // boolean (true or false)
 
+const realTruckName = "Timms Taco Truck"; 
+const realTruckYears = "2014"
+const realTruckIsOpen = true;
 // Log variables
 console.log(exampleName, exampleYears, exampleIsOpen);
 console.log(typeof exampleName);     // typeof tells you the type
+
+console.log(realTruckName, realTruckYears, realTruckIsOpen);
 
 // TODO: Make 3 variables for YOUR truck: a name, a number, and a true/false.
 // TODO: console.log them, and log the typeof each one.
