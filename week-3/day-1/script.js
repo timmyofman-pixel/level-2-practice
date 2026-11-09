@@ -45,6 +45,10 @@ console.log(exampleItem["price"]);   // bracket notation
 // TODO: Make an object for one of YOUR menu items (name, price, spicy).
 // TODO: Log one property with dot notation and one with bracket notation.
 
+const realTruckItem = { name: "Dorritos Lochos Taco", price: 5.5, spicy: true };
+console.log(realTruckItem.name);
+console.log(realTruckItem["price"]);
+
 
 // ---------- Step 4: A function ----------
 // Example:
