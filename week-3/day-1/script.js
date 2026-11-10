@@ -46,8 +46,8 @@ console.log(exampleItem["price"]);   // bracket notation
 // TODO: Log one property with dot notation and one with bracket notation.
 
 const item = { name: "Dorritos Lochos Taco", price: 5.5, spicy: true };
-console.log(realTruckItem.name);
-console.log(realTruckItem["price"]);
+console.log(item.name);
+console.log(item["price"]);
 
 
 // ---------- Step 4: A function ----------
