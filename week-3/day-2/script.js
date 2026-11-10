@@ -49,7 +49,7 @@ console.log("Step 3 object:", exampleParsed);
 console.log("Step 3 price:", exampleParsed.price);
 
 // TODO: Write a JSON string for one of YOUR menu items. Parse it. Log one property.
-const realTruckJson = '{name: "Dorritos Lochos Taco", price: 5.5, spicy: true}';
+const realTruckJson = '{"name": "Dorritos Lochos Taco", "price": 5.5, "spicy": true}';
 const realTruckParsed = JSON.parse(realTruckJson);
 console.log("Step 3 text:", realTruckJson);
 console.log("Step 3 object:", realTruckParsed);
