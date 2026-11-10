@@ -33,7 +33,7 @@ console.log(exampleMenu.length);     // how many items
 
 const Menu = ["Plain Taco", "Bean Burritos", "Dorritos Lochos Tacos"];
 console.log(Menu[0]);
-console.log(Menu[realTruckMenu.length - 1]);
+console.log(Menu[Menu.length - 1]);
 console.log(Menu.length);
 
 // ---------- Step 3: An object (one thing with details) ----------
